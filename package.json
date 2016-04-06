@@ -22,7 +22,7 @@
         "l10n",
         "ender"
     ],
-    "main": "./moment.js",
+    "main": "moment.js",
     "engines": {
         "node": "*"
     },
@@ -73,9 +73,6 @@
             "moment.js",
             "locale"
         ],
-        "map": {
-            "moment": "./moment"
-        },
         "buildConfig": {
             "uglify": true
         }
